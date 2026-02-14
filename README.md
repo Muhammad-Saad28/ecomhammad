@@ -1,6 +1,6 @@
-## Ecom Abdullah – E‑commerce Portfolio Website
+## EcomHammad – E‑commerce Portfolio Website
 
-This is the codebase for **Ecom Abdullah**, a portfolio and lead‑generation website showcasing real Shopify and paid‑ads results for Abdullah and his team.
+This is the codebase for **EcomHammad**, a portfolio and lead‑generation website showcasing real Shopify, paid‑ads, and design work for a three‑person e‑commerce team.
 
 The site is built with **React**, **Vite**, and **Tailwind CSS**, and is optimized for conversions with clear case studies, testimonials, and a WhatsApp‑first contact flow.
 
@@ -69,7 +69,7 @@ Key files and folders:
 
 ## Contact & Leads
 
-- Primary CTA is a **WhatsApp inquiry** button that opens a chat with the Ecom Abdullah number.
+- Primary CTA is a **WhatsApp inquiry** button that opens a chat with the EcomHammad WhatsApp number, pre‑filled with the details from the contact form.
 - Netlify forms are wired to capture submissions from the Contact form.
 
 You can update email, WhatsApp number, and links in:
@@ -93,4 +93,4 @@ Typical flow:
 
 ## License
 
-This repository is intended as a personal/portfolio project for Ecom Abdullah. If you want to reuse the design or structure, please ask for permission first.
+This repository is intended as a personal/portfolio project for EcomHammad. If you want to reuse the design or structure, please ask for permission first.
