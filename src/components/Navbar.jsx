@@ -57,7 +57,7 @@ const Navbar = () => {
           <div className="h-9 w-9 rounded-full bg-slate-900/90 border border-slate-700/80 overflow-hidden flex items-center justify-center">
               <img
                 src="/logo.jpeg"
-                alt="Abdullah Khalid logo"
+                alt="EcomHammad logo"
                 className="h-8 w-8 object-contain"
                 loading="lazy"
                 decoding="async"

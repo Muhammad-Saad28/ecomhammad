@@ -10,7 +10,7 @@ const projects = [
     role: 'Frontend & Technical Architecture',
     result: 'Fast, stable portfolio site with smooth navigation and clean code structure.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'TypeScript'],
-    url: 'https://ecomabdullah.netlify.app',
+    url: 'https://ecomhammad.netlify.app',
     description:
       'Implemented the full front end for the EcomHammad studio site using a modern React + Vite setup with Tailwind and TypeScript, handling routing, layout, and component structure so the marketing team could focus on content.'
   },
@@ -131,12 +131,12 @@ const PortfolioSaad = () => {
                 <p>
                   Website link:{' '}
                   <a
-                    href="https://ecomabdullah.netlify.app"
+                    href="https://ecomhammad.netlify.app"
                     target="_blank"
                     rel="noreferrer"
                     className="text-accent.blue/90 hover:text-accent.blue/80 underline underline-offset-2"
                   >
-                    https://ecomabdullah.netlify.app
+                    https://ecomhammad.netlify.app
                   </a>
                 </p>
                 <p>

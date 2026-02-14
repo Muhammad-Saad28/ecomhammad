@@ -140,7 +140,7 @@ const PortfolioHammad = () => {
                     not a generic template, so brands can see exactly how we think about structure.
                   </p>
                   <a
-                    href="https://ecomabdullah.netlify.com"
+                    href="https://ecomhammad.netlify.app"
                     target="_blank"
                     rel="noreferrer"
                     className="mt-2 inline-flex items-center gap-1 text-[11px] font-medium text-accent.blue hover:text-accent.blue/80 underline underline-offset-2"
@@ -212,12 +212,12 @@ const PortfolioHammad = () => {
                     Instagram.
                   </p>
                   <a
-                    href="https://instagram.com/ecomabdullahh"
+                    href="https://instagram.com/ecomhammad"
                     target="_blank"
                     rel="noreferrer"
                     className="mt-2 inline-flex items-center gap-1 text-[11px] font-medium text-accent.blue hover:text-accent.blue/80 underline underline-offset-2"
                   >
-                    Visit @ecomabdullahh
+                    Visit @ecomhammad
                     <span aria-hidden="true">↗</span>
                   </a>
                 </div>
