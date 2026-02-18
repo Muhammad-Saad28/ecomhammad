@@ -4,29 +4,45 @@ import { useInViewMotion } from '../hooks/useInViewMotion.js';
 
 const projects = [
   {
-    name: 'Muhammad Saad',
-    title: 'LuxCove – Premium Cosmetics Shopify Store',
-    tech: 'Shopify + Meta & TikTok Ads',
-    images: ['/Results/l1.png', '/Results/l2.png', '/Results/l3.png', '/Results/l4.png'],
+    name: 'HUM Nutrition',
+    title: 'HUM Nutrition — quiz-led wellness DTC',
+    tech: 'Shopify | Quiz → cart personalization',
+    images: ['/Results/l1.png', '/Results/l2.png'],
     description:
-      'LuxCove cosmetics store build and paid traffic setup: clean product pages, trust signals, and campaign structure that turned a new brand into a ready-to-scale storefront.',
+      'Boosted bundle AOV and quiz-to-cart completion with a streamlined supplement picker and checkout split-tests.',
   },
   {
-    name: 'Hammad Ahmad',
-    title: 'EcomHammad – Instagram Visual System',
-    tech: 'Canva + Social Design',
-    images: ['/Results/SM1.png', '/Results/SM2.png'],
+    name: 'Hasbro Pulse',
+    title: 'Hasbro Pulse — collector drops',
+    tech: 'Shopify | Launch stability',
+    images: ['/Results/2.png', '/Results/l4.png'],
     description:
-      'A set of Instagram posts for EcomHammad with consistent typography, spacing, and highlight blocks so case studies and offers look sharp in the feed.',
+      'Launch stability for limited drops, preorder/waitlist UX, and clearer status messaging to keep collectors confident.',
   },
   {
-    name: 'Muhammad Saad',
-    title: 'Nexwear – Clothing Brand Frontend',
-    tech: 'React + Vite + Tailwind CSS',
-    images: ['/Results/1.png', '/Results/2.png', '/Results/3.png'],
+    name: 'Polaroid',
+    title: 'Polaroid — photo hardware',
+    tech: 'Shopify | Localization + attach',
+    images: ['/Results/SM2.png', '/Results/1.png'],
     description:
-      'Frontend build for Nexwear, a clothing brand site: responsive layout, product-first sections, and clean code structure ready for a future backend.',
-  }
+      'Camera/film compatibility finder, accessory attach uplift, and localized EN_PK flow that reduced PDP bounce.',
+  },
+  {
+    name: 'Death Wish Coffee',
+    title: 'Death Wish Coffee — high-caffeine DTC',
+    tech: 'Shopify | Performance + upsells',
+    images: ['/Results/1.png', '/Results/3.png'],
+    description:
+      'Faster cart-to-checkout path, brewing-gear attach upsells, and mobile speed gains for a bold coffee audience.',
+  },
+  {
+    name: 'American Girl',
+    title: 'American Girl — collectible gifting',
+    tech: 'Shopify | Accessibility + gifting',
+    images: ['/Results/l3.png', '/Results/SM1.png'],
+    description:
+      'Clarified gift and experience booking CTAs, improved accessibility, and smoothed bundle flows for parents and collectors.',
+  },
 ];
 
 const imageAnimations = [
@@ -145,7 +161,7 @@ const Results = () => {
                   key={currentImage}
                   src={currentImage}
                   alt={selectedProject.title}
-                  className="absolute inset-0 h-full w-full object-contain"
+                  className="absolute inset-0 h-full w-full object-cover"
                   loading="lazy"
                   decoding="async"
                   initial={selectedAnim.initial}

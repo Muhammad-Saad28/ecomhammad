@@ -6,7 +6,7 @@ const Contact = () => {
   const { ref, isInView } = useInViewMotion();
 
   const handleSubmitClick = (event) => {
-    const whatsappNumber = '923166124490';
+    const whatsappNumber = '923274683445';
 
     const form = event?.target?.form || document.forms.contact;
 
@@ -75,7 +75,7 @@ const Contact = () => {
                   <span>Email</span>
                 </a>
                 <a
-                  href="https://wa.me/923166124490"
+                  href="https://wa.me/923274683445"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-600 hover:bg-emerald-500 px-4 py-2 text-xs sm:text-sm font-medium text-emerald-50 shadow-soft border border-emerald-500/80 transition transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"

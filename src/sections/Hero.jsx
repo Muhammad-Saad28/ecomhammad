@@ -56,7 +56,7 @@ const Hero = () => {
                 href="#results"
                 className="inline-flex items-center justify-center rounded-full bg-slate-900/80 hover:bg-slate-800 px-5 py-2.5 text-sm sm:text-base font-semibold text-slate-50 shadow-soft border border-slate-600/80 transition transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500/70 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
               >
-                View case studies
+                View results
               </a>
             </motion.div>
 

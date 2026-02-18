@@ -6,26 +6,78 @@ const memberPortfolios = [
   {
     id: 'hammad',
     name: 'Hammad Ahmad',
-    role: 'UI/UX & Graphic Design',
+    role: 'UX, localization, conversion design',
     intro:
-      'Designs clean, conversion-focused interfaces, brand visuals, and logos that make stores feel premium and easy to use.',
+      'Designs quiz flows, localized experiences, and conversion-forward layouts that keep shoppers confident.',
     highlights: [
-      'Website and landing page designs with clear visual hierarchy.',
-      'Logo and brand systems built for digital-first brands.',
-      'Polished graphics and ad creatives prepared in Canva.'
+      'Quiz-to-cart personalization and bundle strategy for higher AOV.',
+      'Compatibility, localization, and PDP bounce-down work for hardware.',
+      'Navigation and search tuning for larger catalogs and bundles.'
+    ],
+    projects: [
+      {
+        brand: 'HUM Nutrition',
+        url: 'https://www.humnutrition.com/',
+        focus: 'Quiz-led wellness DTC',
+        role: 'Mapped quiz to cart, tuned bundles, and ran checkout split-tests.',
+      },
+      {
+        brand: 'Hasbro Pulse',
+        url: 'https://www.hasbropulse.com/',
+        focus: 'Collector drops at scale',
+        role: 'Preorder status comms, drop stability guardrails, conversion analytics.',
+      },
+      {
+        brand: 'Polaroid',
+        url: 'https://www.polaroid.com/en_pk',
+        focus: 'Photo hardware localization',
+        role: 'Compatibility finder, accessory attach uplift, EN_PK localization.',
+      },
+      {
+        brand: 'Chronicle Books',
+        url: 'https://www.chroniclebooks.com/',
+        focus: 'Gifting-first catalog UX',
+        role: 'Nav re-architecture, giftable bundles, and search facet tuning.',
+      }
     ],
     images: ['/Sales/2.png']
   },
   {
     id: 'saad',
     name: 'Muhammad Saad',
-    role: 'Tech & Development',
+    role: 'Tech, speed, drop readiness',
     intro:
-      'Builds and maintains the technical side: websites, web apps, and integrations that are fast, stable, and ready to scale.',
+      'Builds fast, resilient Shopify experiences: mobile-first PDPs, drop stability, and reusable landing systems.',
     highlights: [
-      'End-to-end website builds and technical setup.',
-      'Application and software development tailored to business needs.',
-      'Experience with Angular.js frontends and .NET framework backends.'
+      'Performance-first builds with clean handoff-ready code.',
+      'Cart/checkout UX tuning with cross-sells and returns clarity.',
+      'Reusable landing templates for influencer and seasonal traffic.'
+    ],
+    projects: [
+      {
+        brand: 'American Girl',
+        url: 'https://www.americangirl.com/',
+        focus: 'Collectible gifting UX',
+        role: 'IA + accessibility, guided gifting flow, cart upsell placement.',
+      },
+      {
+        brand: 'Death Wish Coffee',
+        url: 'https://www.deathwishcoffee.com/',
+        focus: 'High-caffeine DTC speed',
+        role: 'Mobile PDP rewrite, merch cross-sells, asset strategy for speed.',
+      },
+      {
+        brand: 'Scuffers',
+        url: 'https://scuffers.com/',
+        focus: 'Streetwear drops',
+        role: 'Drop pages, size/fit helper, cart drawer with quick edits.',
+      },
+      {
+        brand: 'Fashion Nova',
+        url: 'https://www.fashionnova.com/',
+        focus: 'Influencer landing system',
+        role: 'Landing templates, rapid seasonal theming, returns/fit FAQ placement.',
+      }
     ],
     images: ['/Sales/3.png', '/Sales/1.png']
   }
@@ -65,15 +117,43 @@ const Portfolio = () => {
                 <p className="text-[11px] text-slate-400">{member.role}</p>
                 <p className="mt-2 text-xs text-slate-300 leading-relaxed">{member.intro}</p>
               </div>
-              <div className="flex-1 p-4 flex flex-col gap-2">
-                {member.highlights.map((highlight) => (
-                  <div
-                    key={highlight}
-                    className="group/item rounded-lg border border-slate-800/80 bg-slate-950/80 px-3 py-2 text-[11px] text-slate-200 transition-colors hover:border-accent.blue/80 hover:bg-slate-950"
-                  >
-                    {highlight}
+              <div className="flex-1 p-4 flex flex-col gap-3">
+                <div className="flex flex-col gap-2">
+                  {member.highlights.map((highlight) => (
+                    <div
+                      key={highlight}
+                      className="group/item rounded-lg border border-slate-800/80 bg-slate-950/80 px-3 py-2 text-[11px] text-slate-200 transition-colors hover:border-accent.blue/80 hover:bg-slate-950"
+                    >
+                      {highlight}
+                    </div>
+                  ))}
+                </div>
+
+                {member.projects?.length ? (
+                  <div className="space-y-2">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-400">Case slices</p>
+                    <div className="grid gap-2">
+                      {member.projects.map((project) => (
+                        <a
+                          key={project.brand}
+                          href={project.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="group/case rounded-xl border border-slate-800/80 bg-slate-950/80 px-3 py-3 text-left transition-colors hover:border-accent.blue/80 hover:bg-slate-950"
+                        >
+                          <div className="flex items-start justify-between gap-3">
+                            <div className="min-w-0 space-y-1">
+                              <p className="text-xs font-semibold text-slate-50 leading-snug">{project.brand}</p>
+                              <p className="text-[11px] text-slate-400 leading-snug line-clamp-1">{project.focus}</p>
+                              <p className="text-[11px] text-slate-300 leading-relaxed">{project.role}</p>
+                            </div>
+                            <span className="text-[11px] text-accent.blue/90 shrink-0">-&gt;</span>
+                          </div>
+                        </a>
+                      ))}
+                    </div>
                   </div>
-                ))}
+                ) : null}
               </div>
               {member.images?.length ? (
                 <div className="px-4 pb-4 grid gap-2">

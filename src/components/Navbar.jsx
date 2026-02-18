@@ -58,7 +58,7 @@ const Navbar = () => {
               <img
                 src="/logo.jpeg"
                 alt="EcomHammad logo"
-                className="h-8 w-8 object-contain"
+                className="h-full w-full object-cover"
                 loading="lazy"
                 decoding="async"
               />
@@ -101,7 +101,9 @@ const Navbar = () => {
         </div>
         <div className="hidden md:block ml-auto md:ml-4">
           <a
-            href="/#contact"
+            href="https://wa.me/923274683445"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-1 rounded-full bg-slate-900 hover:bg-slate-800 px-4 py-1.5 text-sm font-semibold text-slate-50 shadow-soft border border-slate-600/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500/70 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 transition transform hover:-translate-y-0.5"
           >
             Let&apos;s talk
@@ -133,7 +135,9 @@ const Navbar = () => {
                 Testimonials
               </a>
               <a
-                href="/#contact"
+                href="https://wa.me/923274683445"
+                target="_blank"
+                rel="noreferrer"
                 onClick={() => setIsMobileOpen(false)}
                 className="mt-2 inline-flex items-center justify-center rounded-full bg-slate-900 hover:bg-slate-800 px-3 py-1.75 text-xs font-semibold text-slate-50 shadow-soft border border-slate-600/80 transform hover:-translate-y-0.5"
               >
