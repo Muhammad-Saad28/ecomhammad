@@ -8,8 +8,8 @@ const projects = [
     title: 'HUM Nutrition — quiz-led wellness DTC',
     tech: 'Shopify | Quiz → cart personalization',
     images: [
-      '/Results/humnutrition/Screenshot%202026-02-19%20214054.png',
-      '/Results/humnutrition/Screenshot%202026-02-19%20214108.png'
+      '/Results/humnutrition/Screenshot%202026-02-19%20214054.webp',
+      '/Results/humnutrition/Screenshot%202026-02-19%20214108.webp'
     ],
     description:
       'Boosted bundle AOV and quiz-to-cart completion with a streamlined supplement picker and checkout split-tests.',
@@ -19,9 +19,9 @@ const projects = [
     title: 'Hasbro Pulse — collector drops',
     tech: 'Shopify | Launch stability',
     images: [
-      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214446.png',
-      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214509.png',
-      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214522.png'
+      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214446.webp',
+      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214509.webp',
+      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214522.webp'
     ],
     description:
       'Launch stability for limited drops, preorder/waitlist UX, and clearer status messaging to keep collectors confident.',
@@ -31,8 +31,8 @@ const projects = [
     title: 'Polaroid — photo hardware',
     tech: 'Shopify | Localization + attach',
     images: [
-      '/Results/Polaroid%20(EN_PK)/Screenshot%202026-02-19%20214625.png',
-      '/Results/Polaroid%20(EN_PK)/Screenshot%202026-02-19%20225244.png'
+      '/Results/Polaroid%20(EN_PK)/Screenshot%202026-02-19%20214625.webp',
+      '/Results/Polaroid%20(EN_PK)/Screenshot%202026-02-19%20225244.webp'
     ],
     description:
       'Camera/film compatibility finder, accessory attach uplift, and localized EN_PK flow that reduced PDP bounce.',
@@ -42,9 +42,9 @@ const projects = [
     title: 'Death Wish Coffee — high-caffeine DTC',
     tech: 'Shopify | Performance + upsells',
     images: [
-      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20222948.png',
-      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20222955.png',
-      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20223011.png'
+      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20222948.webp',
+      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20222955.webp',
+      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20223011.webp'
     ],
     description:
       'Faster cart-to-checkout path, brewing-gear attach upsells, and mobile speed gains for a bold coffee audience.',
@@ -54,9 +54,9 @@ const projects = [
     title: 'American Girl — collectible gifting',
     tech: 'Shopify | Accessibility + gifting',
     images: [
-      '/Results/American%20Girl/Screenshot%202026-02-19%20222840.png',
-      '/Results/American%20Girl/Screenshot%202026-02-19%20222851.png',
-      '/Results/American%20Girl/Screenshot%202026-02-19%20222905.png'
+      '/Results/American%20Girl/Screenshot%202026-02-19%20222840.webp',
+      '/Results/American%20Girl/Screenshot%202026-02-19%20222851.webp',
+      '/Results/American%20Girl/Screenshot%202026-02-19%20222905.webp'
     ],
     description:
       'Clarified gift and experience booking CTAs, improved accessibility, and smoothed bundle flows for parents and collectors.',
@@ -182,6 +182,7 @@ const Results = () => {
                   className="absolute inset-0 h-full w-full object-cover"
                   loading="lazy"
                   decoding="async"
+                  fetchPriority="low"
                   initial={selectedAnim.initial}
                   animate={selectedAnim.animate}
                   exit={selectedAnim.exit}

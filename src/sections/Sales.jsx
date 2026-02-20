@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInViewMotion } from '../hooks/useInViewMotion.js';
 
-const salesShots = ['/Sales/1.png', '/Sales/2.png', '/Sales/3.png'];
+const salesShots = ['/Sales/1.webp', '/Sales/2.webp', '/Sales/3.webp'];
 
 const Sales = () => {
   const { ref, isInView } = useInViewMotion();
@@ -38,6 +38,7 @@ const Sales = () => {
                 className="h-full w-full object-cover"
                 loading="lazy"
                 decoding="async"
+                fetchPriority="low"
               />
             </motion.div>
           ))}

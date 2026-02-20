@@ -12,8 +12,8 @@ const projects = [
     tech: ['Shopify', 'Quiz UX', 'Conversion design'],
     proof: 'Quiz → cart completion up; bundle AOV uplift after rec tuning.',
     gallery: [
-      '/Results/humnutrition/Screenshot%202026-02-19%20214054.png',
-      '/Results/humnutrition/Screenshot%202026-02-19%20214108.png'
+      '/Results/humnutrition/Screenshot%202026-02-19%20214054.webp',
+      '/Results/humnutrition/Screenshot%202026-02-19%20214108.webp'
     ],
     description:
       'Mapped quiz outcomes to cart, tuned bundle recommendations, and designed checkout split-tests to reduce friction across mobile and desktop.'
@@ -25,9 +25,9 @@ const projects = [
     tech: ['Shopify', 'Localization', 'UI/UX'],
     proof: 'Preorder confusion down; drop-day support pings reduced with clearer statuses.',
     gallery: [
-      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214446.png',
-      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214509.png',
-      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214522.png'
+      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214446.webp',
+      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214509.webp',
+      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214522.webp'
     ],
     description:
       'Crafted preorder/waitlist messaging, localized interface details, and UI treatments that keep limited drops organized and calm for fans.'
@@ -39,8 +39,8 @@ const projects = [
     tech: ['Shopify', 'Localization', 'PDP UX'],
     proof: 'PDP bounce rate down; accessory attach improved with compatibility finder.',
     gallery: [
-      '/Results/Polaroid%20(EN_PK)/Screenshot%202026-02-19%20214625.png',
-      '/Results/Polaroid%20(EN_PK)/Screenshot%202026-02-19%20225244.png'
+      '/Results/Polaroid%20(EN_PK)/Screenshot%202026-02-19%20214625.webp',
+      '/Results/Polaroid%20(EN_PK)/Screenshot%202026-02-19%20225244.webp'
     ],
     description:
       'Designed a compatibility finder, localized EN_PK layout, and accessory attach cues so shoppers pair the right film with each camera.'
@@ -52,8 +52,8 @@ const projects = [
     tech: ['Shopify', 'Navigation', 'Search UX'],
     proof: 'Gift bundle uptake up; search exits down after facet and nav tuning.',
     gallery: [
-      '/Results/Chronicle%20Books/Screenshot%202026-02-19%20214823.png',
-      '/Results/Chronicle%20Books/Screenshot%202026-02-19%20214833.png'
+      '/Results/Chronicle%20Books/Screenshot%202026-02-19%20214823.webp',
+      '/Results/Chronicle%20Books/Screenshot%202026-02-19%20214833.webp'
     ],
     description:
       'Reworked nav structure, added giftable bundles, and tuned search facets to make browsing feel curated instead of overwhelming.'
@@ -130,6 +130,7 @@ const ProjectCard = ({ project, index, accent }) => {
                 className="w-full h-full object-cover"
                 loading="lazy"
                 decoding="async"
+                fetchPriority="low"
                 initial={{ opacity: 0, scale: 1.02 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.98 }}
@@ -189,9 +190,9 @@ const ProjectCard = ({ project, index, accent }) => {
   );
 };
 
-const webUiImages = ['/Hammad/web1.png', '/Hammad/web2.png', '/Hammad/web3.png'];
-const logoImages = ['/Hammad/l1.png', '/Hammad/l2.png', '/Hammad/l3.png', '/Hammad/l4.png'];
-const socialImages = ['/Hammad/SM1.png', '/Hammad/SM2.png', '/Hammad/SM3.png'];
+const webUiImages = ['/Hammad/web1.webp', '/Hammad/web2.webp', '/Hammad/web3.webp'];
+const logoImages = ['/Hammad/l1.webp', '/Hammad/l2.webp', '/Hammad/l3.webp', '/Hammad/l4.webp'];
+const socialImages = ['/Hammad/SM1.webp', '/Hammad/SM2.webp', '/Hammad/SM3.webp'];
 
 const PortfolioHammad = () => {
   const [webIndex, setWebIndex] = useState(0);

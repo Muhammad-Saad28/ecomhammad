@@ -40,7 +40,7 @@ const memberPortfolios = [
         role: 'Nav re-architecture, giftable bundles, and search facet tuning.',
       }
     ],
-    images: ['/Sales/2.png']
+    images: ['/Sales/2.webp']
   },
   {
     id: 'saad',
@@ -79,7 +79,7 @@ const memberPortfolios = [
         role: 'Landing templates, rapid seasonal theming, returns/fit FAQ placement.',
       }
     ],
-    images: ['/Sales/3.png', '/Sales/1.png']
+    images: ['/Sales/3.webp', '/Sales/1.webp']
   }
 ];
 
@@ -168,6 +168,7 @@ const Portfolio = () => {
                         className="h-full w-full object-cover group-hover:scale-[1.02] transition-transform duration-300"
                         loading="lazy"
                         decoding="async"
+                        fetchPriority="low"
                       />
                     </div>
                   ))}

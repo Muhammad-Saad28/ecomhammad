@@ -13,9 +13,9 @@ const projects = [
     url: 'https://www.americangirl.com/',
     proof: 'Guided gifting exits down; upsell attach improved with clearer placement.',
     gallery: [
-      '/Results/American%20Girl/Screenshot%202026-02-19%20222840.png',
-      '/Results/American%20Girl/Screenshot%202026-02-19%20222851.png',
-      '/Results/American%20Girl/Screenshot%202026-02-19%20222905.png'
+      '/Results/American%20Girl/Screenshot%202026-02-19%20222840.webp',
+      '/Results/American%20Girl/Screenshot%202026-02-19%20222851.webp',
+      '/Results/American%20Girl/Screenshot%202026-02-19%20222905.webp'
     ],
     description:
       'Led information architecture and accessibility passes, refined the guided gifting flow, and placed cart upsells where they add value without cluttering the journey.'
@@ -28,9 +28,9 @@ const projects = [
     url: 'https://www.deathwishcoffee.com/',
     proof: 'Mobile PDP LCP down; brewing-gear attach rate up after cross-sell tuning.',
     gallery: [
-      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20222948.png',
-      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20222955.png',
-      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20223011.png'
+      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20222948.webp',
+      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20222955.webp',
+      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20223011.webp'
     ],
     description:
       'Rebuilt mobile PDPs, added brewing gear cross-sells, and tightened asset strategy to keep page speed high for caffeine-seeking shoppers.'
@@ -43,10 +43,10 @@ const projects = [
     url: 'https://scuffers.com/',
     proof: 'Size-related returns down; faster cart edits kept drop sessions moving.',
     gallery: [
-      '/Results/Scuffers/Screenshot%202026-02-19%20223107.png',
-      '/Results/Scuffers/Screenshot%202026-02-19%20223120.png',
-      '/Results/Scuffers/Screenshot%202026-02-19%20223133.png',
-      '/Results/Scuffers/Screenshot%202026-02-19%20223156.png'
+      '/Results/Scuffers/Screenshot%202026-02-19%20223107.webp',
+      '/Results/Scuffers/Screenshot%202026-02-19%20223120.webp',
+      '/Results/Scuffers/Screenshot%202026-02-19%20223133.webp',
+      '/Results/Scuffers/Screenshot%202026-02-19%20223156.webp'
        
     ],
     description:
@@ -60,9 +60,9 @@ const projects = [
     url: 'https://www.fashionnova.com/',
     proof: 'Influencer landers converted higher; bounce down with fit/returns clarity up front.',
     gallery: [
-      '/Results/Fashion%20Nova/Screenshot%202026-02-19%20223231.png',
-      '/Results/Fashion%20Nova/Screenshot%202026-02-19%20223242.png',
-      '/Results/Fashion%20Nova/Screenshot%202026-02-19%20223318.png'
+      '/Results/Fashion%20Nova/Screenshot%202026-02-19%20223231.webp',
+      '/Results/Fashion%20Nova/Screenshot%202026-02-19%20223242.webp',
+      '/Results/Fashion%20Nova/Screenshot%202026-02-19%20223318.webp'
     ],
     description:
       'Created reusable landing templates for influencer campaigns, rapid seasonal theming, and positioned returns/fit FAQs to cut hesitation at checkout.'
@@ -139,6 +139,7 @@ const ProjectCard = ({ project, index, accent }) => {
                 className="w-full h-full object-cover"
                 loading="lazy"
                 decoding="async"
+                fetchPriority="low"
                 initial={{ opacity: 0, scale: 1.02 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.98 }}
