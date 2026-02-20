@@ -6,18 +6,18 @@ const teamMembers = [
   {
     id: 'hammad',
     name: 'Hammad Ahmad',
-    role: 'UI/UX & Graphic Design',
-    specialty: 'Graphic design, UI/UX, logo design, brand assets',
-    bio: 'Designs clean, conversion-focused interfaces and brand systems for stores, landing pages, and social content.',
+    role: 'Shopify customizer & graphic designer',
+    specialty: 'Shopify themes, UI/UX, logo design, brand assets',
+    bio: 'Shopify customizations paired with brand-led visuals—storefront tweaks, localized layouts, and cohesive brand assets.',
     portfolioHref: '/portfolio/hammad',
     imageSrc: '/Hammad.jpeg'
   },
   {
     id: 'saad',
     name: 'Muhammad Saad',
-    role: 'Tech & Development',
-    specialty: 'Website building, software & application development',
-    bio: 'Builds and maintains the tech: fast websites, internal tools, and apps using modern front-end and .NET back-end stacks.',
+    role: 'Shopify and tech',
+    specialty: 'Shopify performance, reusable systems, integrations',
+    bio: 'Shopify engineer focused on speed, reliability, and reusable systems: mobile-first PDPs, drop-ready flows, and integrations that keep the stack stable.',
     portfolioHref: '/portfolio/saad',
     imageSrc: '/Saad.jpeg'
   }

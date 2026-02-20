@@ -18,7 +18,7 @@ const About = () => {
               transition={{ delay: 0.08, duration: 0.45 }}
               className="mt-3 text-xl sm:text-2xl font-semibold text-slate-50"
             >
-              A small studio built around ecommerce growth
+              A Shopify-first studio blending design and tech
             </motion.h3>
 
             <motion.p
@@ -27,9 +27,8 @@ const About = () => {
               transition={{ delay: 0.16, duration: 0.45 }}
               className="mt-3 text-sm sm:text-base leading-relaxed text-slate-300 max-w-xl"
             >
-              EcomHammad is a focused two‑person team that sits at the overlap of marketing, design, and development.
-              We build Shopify stores and funnels that look premium, load fast, and are engineered from day one to
-              convert consistently.
+              EcomHammad is a two-person Shopify studio pairing design and engineering. We build stores and funnels that
+              look premium, load fast, and stay stable.
             </motion.p>
 
             <motion.p
@@ -38,9 +37,9 @@ const About = () => {
               transition={{ delay: 0.24, duration: 0.45 }}
               className="mt-3 text-sm sm:text-base leading-relaxed text-slate-300 max-w-xl"
             >
-              Together we cover the full funnel: Meta ads and launch strategy, UI/UX and brand visuals, and the
-              technical builds that keep everything stable. Your stack stays simple, tracking is clean, and experiments
-              stay focused on what actually moves revenue.
+              Together we cover the full funnel: theme and layout customizations, localized PDPs and flows, brand
+              visuals, Meta ads, and the technical wiring that keeps tracking and data clean. Your stack stays simple
+              and experiments stay focused on what actually moves revenue.
             </motion.p>
 
             <motion.ul

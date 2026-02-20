@@ -35,9 +35,9 @@ const Hero = () => {
               transition={{ delay: 0.2, duration: 0.55 }}
               className="mt-4 max-w-xl text-sm sm:text-base leading-relaxed text-slate-300"
             >
-              We build and improve Shopify stores, connect the tools in your tech stack, run Meta ads, and design the
-              visuals around it. One small team handling development, marketing, and design so you don&apos;t juggle
-              multiple freelancers.
+              We customize and speed up Shopify stores, wire the stack (tracking, apps, integrations), design the
+              visuals, and run Meta ads. A tight design-plus-engineering duo delivers everything end to end, so you get
+              fast builds and consistent creative without juggling freelancers.
             </motion.p>
 
             <motion.div
@@ -72,7 +72,7 @@ const Hero = () => {
               </div>
               <div>
                 <dt className="text-slate-400">Core specialties</dt>
-                <dd className="mt-1 text-lg font-semibold text-slate-50">Marketing • UI/UX • Tech</dd>
+                <dd className="mt-1 text-lg font-semibold text-slate-50">Shopify customization • UX/design • Tech</dd>
               </div>
               <div>
                 <dt className="text-slate-400">Response time</dt>

@@ -17,13 +17,13 @@ const services = [
   },
   {
     id: 'integration',
-    label: 'Custom‑coded sites',
+    label: 'Shopify integrations & light custom builds',
     description:
-      'For custom‑coded sites (React, Next, .NET, etc.) we handle the architecture and integrations: payments, CRM, email platforms, analytics, and tracking pixels. We step in as the tech partner who makes sure every tool is configured correctly and your data flows cleanly between systems.',
+      'We keep Shopify as the core and handle the glue: payments, CRM, email, analytics, and tracking. When needed, we add light custom code (React/Next components, .NET endpoints) to keep data flowing without bloating the stack.',
     bullets: [
-      'Payment gateways, checkout flows, and subscription logic',
-      'CRM, email platform, and webhook integrations for clean data',
-      'Analytics, tracking pixels, and event schemas that actually match your funnel'
+      'Payment gateways, checkout flows, and subscription logic on Shopify',
+      'CRM, email platform, and webhook integrations that keep data clean',
+      'Analytics, tracking pixels, and event schemas mapped to your funnel'
     ],
     icon: '🔗'
   },
@@ -64,12 +64,12 @@ const Services = () => {
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-[0.22em] text-slate-400">Our services</h2>
             <p className="mt-2 text-xl sm:text-2xl font-semibold text-slate-50">
-              Shopify, custom builds, Meta ads, and design
+              Shopify-first builds, integrations, Meta ads, and design
             </p>
           </div>
-          <p className="hidden sm:block max-w-sm text-xs text-slate-400">
-            A focused stack of four offers so your store, funnels, and ads are built and improved by the same small team.
-          </p>
+            <p className="hidden sm:block max-w-sm text-xs text-slate-400">
+              Shopify-first offers so your store, funnels, and ads stay cohesive without a bloated stack.
+            </p>
         </div>
 
         <div className="grid gap-5 md:grid-cols-[minmax(0,1.1fr)_minmax(0,1.4fr)] items-start">

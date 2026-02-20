@@ -7,7 +7,10 @@ const projects = [
     name: 'HUM Nutrition',
     title: 'HUM Nutrition — quiz-led wellness DTC',
     tech: 'Shopify | Quiz → cart personalization',
-    images: ['/Results/l1.png', '/Results/l2.png'],
+    images: [
+      '/Results/humnutrition/Screenshot%202026-02-19%20214054.png',
+      '/Results/humnutrition/Screenshot%202026-02-19%20214108.png'
+    ],
     description:
       'Boosted bundle AOV and quiz-to-cart completion with a streamlined supplement picker and checkout split-tests.',
   },
@@ -15,7 +18,11 @@ const projects = [
     name: 'Hasbro Pulse',
     title: 'Hasbro Pulse — collector drops',
     tech: 'Shopify | Launch stability',
-    images: ['/Results/2.png', '/Results/l4.png'],
+    images: [
+      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214446.png',
+      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214509.png',
+      '/Results/Hasbro%20Pulse/Screenshot%202026-02-19%20214522.png'
+    ],
     description:
       'Launch stability for limited drops, preorder/waitlist UX, and clearer status messaging to keep collectors confident.',
   },
@@ -23,7 +30,10 @@ const projects = [
     name: 'Polaroid',
     title: 'Polaroid — photo hardware',
     tech: 'Shopify | Localization + attach',
-    images: ['/Results/SM2.png', '/Results/1.png'],
+    images: [
+      '/Results/Polaroid%20(EN_PK)/Screenshot%202026-02-19%20214625.png',
+      '/Results/Polaroid%20(EN_PK)/Screenshot%202026-02-19%20225244.png'
+    ],
     description:
       'Camera/film compatibility finder, accessory attach uplift, and localized EN_PK flow that reduced PDP bounce.',
   },
@@ -31,7 +41,11 @@ const projects = [
     name: 'Death Wish Coffee',
     title: 'Death Wish Coffee — high-caffeine DTC',
     tech: 'Shopify | Performance + upsells',
-    images: ['/Results/1.png', '/Results/3.png'],
+    images: [
+      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20222948.png',
+      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20222955.png',
+      '/Results/Death%20Wish%20Coffee/Screenshot%202026-02-19%20223011.png'
+    ],
     description:
       'Faster cart-to-checkout path, brewing-gear attach upsells, and mobile speed gains for a bold coffee audience.',
   },
@@ -39,7 +53,11 @@ const projects = [
     name: 'American Girl',
     title: 'American Girl — collectible gifting',
     tech: 'Shopify | Accessibility + gifting',
-    images: ['/Results/l3.png', '/Results/SM1.png'],
+    images: [
+      '/Results/American%20Girl/Screenshot%202026-02-19%20222840.png',
+      '/Results/American%20Girl/Screenshot%202026-02-19%20222851.png',
+      '/Results/American%20Girl/Screenshot%202026-02-19%20222905.png'
+    ],
     description:
       'Clarified gift and experience booking CTAs, improved accessibility, and smoothed bundle flows for parents and collectors.',
   },
