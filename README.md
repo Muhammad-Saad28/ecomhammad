@@ -49,6 +49,16 @@ npm run build
 npm run preview
 ```
 
+### Optimize Images (WebP)
+
+Before committing new images in `public/Results`, `public/Hammad`, `public/Sales`, or `public/Testimonals`, convert them to WebP and size them down for faster loads:
+
+```bash
+npm run optimize-images
+```
+
+This runs `scripts/optimize-images.js` (Sharp) to generate `.webp` copies at sensible widths. Update any new image references to point to the `.webp` files.
+
 ---
 
 ## Project Structure
@@ -88,6 +98,11 @@ Typical flow:
 1. Push changes to GitHub.
 2. Connect the repo to Netlify.
 3. Use the default build command `npm run build` and publish directory `dist`.
+
+### Performance and caching
+
+- Static media under `/Results`, `/Hammad`, `/Sales`, and `/Testimonals` are served as WebP and ship with long-lived cache headers via `netlify.toml`.
+- Keep PNG/JPEG originals only if needed; prefer the generated `.webp` versions in code references.
 
 ---
 
